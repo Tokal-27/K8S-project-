@@ -25,6 +25,14 @@ This project demonstrates deploying a Kubernetes lab environment on **KinD** wit
    - Use a temporary Alpine pod with curl.
    - Send a POST request to `/users` endpoint.
    - Confirm that users can be added successfully to the database.
+  
+
+
+## ✅ Summary
+- KinD cluster configured for Ingress.
+- MySQL deployed with persistence and Secrets.
+- Authentication service integrated with MySQL.
+- End-to-end validation using curl.
 
 ---
 
@@ -39,3 +47,4 @@ K8S-Project-/
 └── auth/
     ├── deployment.yaml
     └── service.yaml
+
